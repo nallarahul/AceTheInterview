@@ -1,0 +1,166 @@
+h1
+{
+    font-family: 'Black Ops One';
+    color:white;
+}
+h2
+{
+    color:white;
+    font-family: 'Times New Roman', Times , serif;
+    padding-bottom: 2%;
+}
+p
+{
+    font-family: 'Playfair Display', serif;
+}
+/* Navbar */
+.container-fluid
+{
+    background-color: #3CC48E;
+    padding:3% 15% 7%;
+}
+.nav-item
+{
+    font-size:1.4rem;
+    color:white;
+}
+.logo
+{
+    height:45px;
+}
+
+/* Title */
+.row
+{
+    display: flex;
+    flex-direction: column;
+    padding-top:4%;
+    padding:auto;
+    align-items: center;
+    text-align: center;
+}
+.row-one{
+    background-color: #3CC48E;
+}
+.explore-button
+{
+    margin:4% 5% 3% 4%;
+    border-radius: 5%;
+}
+
+/* Features */
+.feature-box1
+{
+    display: flex;
+    align-items: center;
+}
+.coding-img1{
+    height: 300px;
+}
+.coding-description1{
+    padding: 7%;
+}
+.text{
+    font-size: 1.1rem;
+    padding-top:4%;
+    padding-right:4%;
+    text-align: center;
+    color:gray;
+}
+.compete-button1
+{
+    margin-left:40%;
+    margin-top: 5%;
+}
+.feature-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    font-size: 1.1rem;
+    padding-top:4%;
+    padding-right:4%;
+    text-align: center;
+    color:gray;
+}
+.coding-description2{
+    padding: 7%;
+}
+.coding-img2{
+    height: 400px;
+}
+.coding-des2{
+    padding: 2% 7% 7% 7%;
+}
+.coding-des1{
+    padding: 2% 7% 7% 5%;
+}
+
+/*footer*/
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .contact-item-1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:#3CC48E;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .fs-2{
+    font-family: oswald;
+    font-size: 2rem;
+    font-weight: 700;
+    color: gray;
+  }
+  .footer-item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .footer-item2{
+    padding-top: 30px;
+  }
+
+  /*responsiveness*/
+  @media(max-width:576px){
+    .logo{
+        height: 40px;
+    }
+    .feature-box1
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.coding-img1{
+    height: 200px;
+}
+.feature-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  }
+  @media(min-width:576px) and (max-width:768px){
+    .coding-img1{
+        height: 180px;
+    }
+    .coding-img2{
+        height: 300px;
+    }
+  }
+
